@@ -7,16 +7,15 @@ public class Area {
     public static void main(String[] args)
     {
 
-        System.out.print("Enter the radius: ");
-
-
+        System.out.print("Enter a radius: ");
 
         double radius = rad.nextDouble();
 
-        double area = Math.PI * ( radius * radius);
+       // double area = Math.PI * ( radius * radius);
 
+        double area =  Circle.getArea(radius);
 
-        System.out.println("The area of circle is: " + area);
+        System.out.println("The area of circle of " + radius +" is: " + area);
 
     }
 }
