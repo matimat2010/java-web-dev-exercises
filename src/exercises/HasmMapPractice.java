@@ -14,7 +14,7 @@ public class HasmMapPractice {
         Integer newStudentId;
         String newStudentName;
 
-        System.out.println("Enter the new students (or type "0" to finish): ");
+        System.out.println("Enter the new students Id (or type 0 to finish)" );
 
         do {
 
