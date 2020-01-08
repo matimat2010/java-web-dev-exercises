@@ -22,6 +22,7 @@ public class Alice {
 
             System.out.print("\n" + newString);
         }
+        input.close();
     }
 }
 

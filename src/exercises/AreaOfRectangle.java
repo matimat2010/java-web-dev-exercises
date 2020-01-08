@@ -14,6 +14,7 @@ public class AreaOfRectangle {
 
       System.out.println("The Area of the rectangle is: " + area);
 
+      input.close();
 }
 }
 
