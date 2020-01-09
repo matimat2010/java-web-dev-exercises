@@ -16,6 +16,7 @@ public class MilesPerGallon {
 
     System.out.println("Your vehicle gets " + mpg + " miles per gallon.");
 
+        input.close();
     }
 }
 

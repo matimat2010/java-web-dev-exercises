@@ -37,7 +37,7 @@ public class HasmMapPractice {
         for (Map.Entry<Integer, String> student : students.entrySet()){
             System.out.println(student.getKey() + ":" + student.getValue());
         }
-
+        input.close();
     }
 }
 

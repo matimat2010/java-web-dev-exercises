@@ -44,7 +44,7 @@ public class ArrayListPractice {
                 System.out.println(aL.get(i));
             }
 
-
+            input.close();
         }
 
     }
