@@ -19,4 +19,14 @@ public class SmartPhone extends Computer {
     public void setModel(String model) {
         this.model = model;
     }
+
+    @Override
+    public String toString() {
+        return "SmartPhone" + "\n" +
+                "Brand: " + this.getBrand() + "\n" +
+                "Speed: " + this.getSpeed() + "\n" +
+                "Year: " + this.getYear() + "\n" +
+                "Model " + this.getModel() + "\n" +
+                "ID: " + AbstractEntitiy.newId();
+    }
 }

@@ -20,4 +20,14 @@ public class Laptop extends Computer {
         this.size = size;
     }
 
+    @Override
+    public String toString() {
+        return "Laptop" + "\n" +
+                "Brand: " +  this.getBrand() + "\n" +
+                "Speed: " + this.getSpeed() + "\n" +
+                "Year: " + this.getYear() + "\n" +
+                "Size: " + this.getSize() + "\n" +
+                "ID: " + AbstractEntitiy.newId();
+
+    }
 }

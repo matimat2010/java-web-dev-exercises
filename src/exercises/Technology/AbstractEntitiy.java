@@ -1,19 +1,21 @@
 package exercises.Technology;
 
 public class AbstractEntitiy {
-    private int id = 1;
+    private static int id = 1;
 
-public AbstractEntitiy() {
-    this.id=id;
+
+public  AbstractEntitiy() {
+   //
 }
-    public int newId(){
+    public static int newId(){
 //        for (int i=0; i < 0 ; i++){
-            setId(id + 1);
+            //id++;
+            id = id +1;
 //        }
            return id;
     }
 
-    public int getId() {
+    public static int getId() {
         return id;
     }
 

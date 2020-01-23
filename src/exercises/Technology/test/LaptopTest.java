@@ -32,6 +32,5 @@ public class LaptopTest {
         test_Laptop.connectToScreen();
         assertEquals("Super Fast", test_Laptop.getSpeed());
     }
-
 }
 

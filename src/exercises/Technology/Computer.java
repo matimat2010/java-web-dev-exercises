@@ -48,11 +48,14 @@ public void speed() {
     }
 
     @Override
-    public String toString() {
-        return "Computer{" +
-                "brand='" + brand + '\'' +
-                ", speed='" + speed + '\'' +
-                ", year=" + year +
-                '}';
+        public String toString() {
+            return "Computer" + "\n" +
+                    "Brand: " +  brand  + "\n" +
+                    "Speed: " + speed + "\n" +
+                    "Year: " + year + "\n" +
+                    "ID: " + AbstractEntitiy.newId();
+
+
+
     }
 }
